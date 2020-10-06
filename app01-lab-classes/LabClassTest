@@ -1,0 +1,7 @@
+LabClass co452Lab = new LabClass(3);
+Student jack = new Student("Jack Daniels", "J20D");
+Student hamza = new Student("Hamza Mohamed", "H20M");
+Student mike = new Student("Mike Tyson", "M20T");
+co452Lab.enrollStudent(jack);
+co452Lab.enrollStudent(hamza);
+co452Lab.enrollStudent(mike);

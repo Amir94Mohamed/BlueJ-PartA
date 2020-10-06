@@ -1,0 +1,5 @@
+Student adam = new Student("Adam ", "A20");
+adam.addCredits(20);
+Student martin = new Student("wrong name", "123A");
+martin.addCredits(20);
+martin.changeName("Martin");
