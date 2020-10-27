@@ -7,7 +7,7 @@ import java.util.*;
  * @author Michael Kölling and David Barnes
  * @version 2016.02.29
  */
-public class Student
+public class Student extends course
 {
     // the student's full name
     private String name;
