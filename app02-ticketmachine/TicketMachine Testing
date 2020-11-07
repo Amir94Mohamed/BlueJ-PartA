@@ -1,0 +1,61 @@
+TicketMachine ticketMachine = new TicketMachine(100);
+1. Aylesbury costing £2.20
+2. Amersham costing £3.00
+3. High Wycombe costing £3.30
+Inserted amount:100
+Please, select one of the tickets!
+ticketMachine.selectTicket("aylesbury");
+ticketMachine.insertMoney(-10);
+Use a positive amount rather than: -10
+ticketMachine.insertMoney(15);
+Invalid amount inserted: only 10, 20, 100, 200
+ticketMachine.insertMoney(200);
+Inserted200cents.
+##################
+# aylesbury
+# Ticket
+# 220 cents.
+# 12/10/2020
+##################
+
+Total collected: 220
+Refunded balance: 80
+ticketMachine.selectTicket("amersham");
+ticketMachine.insertMoney(20);
+Inserted20cents.
+You must insert at least: 280 more cents.
+ticketMachine.insertMoney(200);
+Inserted200cents.
+You must insert at least: 80 more cents.
+ticketMachine.insertMoney(100);
+Inserted100cents.
+##################
+# amersham
+# Ticket
+# 300 cents.
+# 12/10/2020
+##################
+
+Total collected: 520
+Refunded balance: 20
+ticketMachine.selectTicket("high wycombe");
+ticketMachine.insertMoney(200);
+Inserted200cents.
+You must insert at least: 130 more cents.
+ticketMachine.insertMoney(100);
+Inserted100cents.
+You must insert at least: 30 more cents.
+ticketMachine.insertMoney(20);
+Inserted20cents.
+You must insert at least: 10 more cents.
+ticketMachine.insertMoney(10);
+Inserted10cents.
+##################
+# high wycombe
+# Ticket
+# 330 cents.
+# 12/10/2020
+##################
+
+Total collected: 850
+Refunded balance: 0

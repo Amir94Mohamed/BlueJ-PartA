@@ -28,10 +28,10 @@ public class TicketMachine
      */
     public TicketMachine(int insertedCoins)
     {
-        printAllAvailableTickets();
         price = 0;
         balance = insertedCoins;
-        total = 0; 
+        total = 0;
+        printAllAvailableTickets();
     }
 
     /** in this method the user can choose his destination
@@ -80,13 +80,22 @@ public class TicketMachine
      * here the user will have to insert the amount of money which needs to be inserted
      */
     public void insertMoney(int amount)
-
-    {if(this.selectedTicket !=null)
-        { if (amount > 0){
+    {
+        if(this.selectedTicket !=null)
+        {
+            if (amount > 0)
+            {
+                if (amount == 10 || amount == 20 || amount == 100 || amount == 200)
+                {
                 balance = balance + amount;
                 System.out.println("Inserted" + amount + "cents.");
                 printTicket();
             }
+            else { 
+                System.out.println( "Invalid amount inserted: only 10, 20, 100, 200"
+                );
+            }
+            } 
             else 
             {
                 System.out.println("Use a positive amount rather than: " +
