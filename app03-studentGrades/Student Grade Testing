@@ -1,0 +1,36 @@
+Student jack = new Student("Jack Daniels", "1234");
+Course softwareEnginering = new Course("S20A", "Software Engineering");
+Module networking = new Module("Networking", "0420");
+softwareEnginering.addModule(networking, 1);
+softwareEnginering.print();
+Course: S20A - Software Engineering
+Grade: null
+Average mark: 0
+Module: 0420 Networking Mark = 0
+percentage will be the same as the original mark
+Module: CO450 Computer Architecture Mark = 0
+percentage will be the same as the original mark
+Module: CO453 Application Programming Mark = 0
+percentage will be the same as the original mark
+Module: CO456 Web Development Mark = 0
+percentage will be the same as the original mark
+jack.enrolOnCourse(softwareEnginering);
+softwareEnginering.awardMark(44, 1);
+softwareEnginering.awardMark(77, 2);
+softwareEnginering.awardMark(86, 4);
+softwareEnginering.awardMark(57, 3);
+softwareEnginering.calculateFinalMark();
+softwareEnginering.calculateGrade();
+jack.print();
+Jack Daniels, student ID: 1234, credits: 60
+Course: S20A - Software Engineering
+Grade: B
+Average mark: 66
+Module: 0420 Networking Mark = 44
+percentage will be the same as the original mark
+Module: CO450 Computer Architecture Mark = 77
+percentage will be the same as the original mark
+Module: CO453 Application Programming Mark = 57
+percentage will be the same as the original mark
+Module: CO456 Web Development Mark = 86
+percentage will be the same as the original mark
