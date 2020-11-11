@@ -1,8 +1,10 @@
 /**
- * Model some details of a product sold by a company.
+ * Model some details of a product sold by a company. Contains 
+ * getters and setters.
  * 
  * @author David J. Barnes and Michael Kölling.
  * @version 2016.02.29
+ * Modified by Amir Mohamed
  */
 public class Product
 {
@@ -59,6 +61,14 @@ public class Product
     }
 
     /**
+     * Setter method to set name.
+     */
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    /**
      * Restock with the given amount of this product.
      * The current quantity is incremented by the given amount.
      * @param amount The number of new items added to the stock.
@@ -73,7 +83,7 @@ public class Product
         else 
         {
             System.out.println("Attempt to restock " + name +
-                               " with a non-positive amount: " + amount);
+                " with a non-positive amount: " + amount);
         }
     }
 

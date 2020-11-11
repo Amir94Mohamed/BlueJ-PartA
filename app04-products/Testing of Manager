@@ -1,0 +1,87 @@
+StockManager Manager = new StockManager();
+StockDemo stockDem1 = new StockDemo(Manager);
+Manager.printStock();
+ Game Store 
+==========================
+
+101: Playstation 1  stock level: 0
+102: Playstation 2  stock level: 0
+103: Playstation 3  stock level: 0
+104: Playstation 4  stock level: 0
+105: Xbox 360  stock level: 0
+106: Xbox One stock level: 0
+107: Nintendo Switch stock level: 0
+108: Gaming Mouse stock level: 0
+109: Gaming Headset stock level: 0
+110: Gaming Keyboard stock level: 0
+Manager.deliveryOfProducts(104, 7);
+New delivery of products:  104: Playstation 4  stock level: 7
+Manager.sellProduct(103, 2);
+103: Playstation 3  stock level: 0
+Attempt to sell an out of stock item: Playstation 3 
+103: Playstation 3  stock level: 0
+Manager.sellProduct(104, 3);
+104: Playstation 4  stock level: 7
+104: Playstation 4  stock level: 3
+Manager.printStock();
+ Game Store 
+==========================
+
+101: Playstation 1  stock level: 0
+102: Playstation 2  stock level: 0
+103: Playstation 3  stock level: 0
+104: Playstation 4  stock level: 3
+105: Xbox 360  stock level: 0
+106: Xbox One stock level: 0
+107: Nintendo Switch stock level: 0
+108: Gaming Mouse stock level: 0
+109: Gaming Headset stock level: 0
+110: Gaming Keyboard stock level: 0
+Manager.changeProductName(107, "Nintendo Switch  With Game");
+Manager.removeProduct(107);
+This product has been removed.
+Manager.printStock();
+ Game Store 
+==========================
+
+101: Playstation 1  stock level: 0
+102: Playstation 2  stock level: 0
+103: Playstation 3  stock level: 0
+104: Playstation 4  stock level: 3
+105: Xbox 360  stock level: 0
+106: Xbox One stock level: 0
+108: Gaming Mouse stock level: 0
+109: Gaming Headset stock level: 0
+110: Gaming Keyboard stock level: 0
+Manager.deliveryOfProducts(109, 7);
+New delivery of products:  109: Gaming Headset stock level: 7
+Manager.deliveryOfProducts(106, 5);
+New delivery of products:  106: Xbox One stock level: 5
+Manager.deliveryOfProducts(110, 2);
+New delivery of products:  110: Gaming Keyboard stock level: 2
+Manager.printLowStock();
+Products low in stock: 101: Playstation 1  stock level: 0
+Products low in stock: 102: Playstation 2  stock level: 0
+Products low in stock: 103: Playstation 3  stock level: 0
+Products low in stock: 105: Xbox 360  stock level: 0
+Products low in stock: 108: Gaming Mouse stock level: 0
+Products low in stock: 110: Gaming Keyboard stock level: 2
+Manager.findByName("Playstation ")
+Product found: 101: Playstation 1  stock level: 0
+    returned Object null
+Product found: 102: Playstation 2  stock level: 0
+Product found: 103: Playstation 3  stock level: 0
+Product found: 104: Playstation 4  stock level: 3
+Manager.printStock();
+ Game Store 
+==========================
+
+101: Playstation 1  stock level: 0
+102: Playstation 2  stock level: 0
+103: Playstation 3  stock level: 0
+104: Playstation 4  stock level: 3
+105: Xbox 360  stock level: 0
+106: Xbox One stock level: 5
+108: Gaming Mouse stock level: 0
+109: Gaming Headset stock level: 7
+110: Gaming Keyboard stock level: 2
