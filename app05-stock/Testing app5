@@ -1,0 +1,199 @@
+Enter the first word, your choices are; 
+
+    Add a new product
+    Remove an old product
+    Rename the product
+    Sell product
+    Deliver a product
+    Low Stock list
+    Restock product
+    Print all products
+    Quit the program
+> remove
+Remove an old Product
+
+Please enter the id of the product
+> 101
+/nProduct 101: Playstation 1  stock level: 0 removed!
+
+******************************
+ Stock Management Application 
+    App05: by Amir Mohamed
+******************************
+Enter the first word, your choices are; 
+
+    Add a new product
+    Remove an old product
+    Rename the product
+    Sell product
+    Deliver a product
+    Low Stock list
+    Restock product
+    Print all products
+    Quit the program
+> restock 
+Please enter low stock level
+1
+Please enter the restock level
+3
+102: Playstation 2  stock level: 3
+103: Playstation 3  stock level: 3
+104: Playstation 4  stock level: 3
+105: Xbox 360  stock level: 3
+106: Xbox One stock level: 3
+107: Nintendo Switch stock level: 3
+108: Gaming Mouse stock level: 3
+109: Gaming Headset stock level: 3
+110: Gaming Keyboard stock level: 3
+200: PC Gaming  stock level: 3
+******************************
+ Stock Management Application 
+    App05: by Amir Mohamed
+******************************
+Enter the first word, your choices are; 
+
+    Add a new product
+    Remove an old product
+    Rename the product
+    Sell product
+    Deliver a product
+    Low Stock list
+    Restock product
+    Print all products
+    Quit the program
+> sell
+Sell an existing product
+
+Please enter the id of the product
+104
+Please enter the quantity of the product
+2
+104: Playstation 4  stock level: 3
+104: Playstation 4  stock level: 1
+******************************
+ Stock Management Application 
+    App05: by Amir Mohamed
+******************************
+Enter the first word, your choices are; 
+
+    Add a new product
+    Remove an old product
+    Rename the product
+    Sell product
+    Deliver a product
+    Low Stock list
+    Restock product
+    Print all products
+    Quit the program
+> sell
+Sell an existing product
+
+Please enter the id of the product
+106
+Please enter the quantity of the product
+1
+106: Xbox One stock level: 3
+106: Xbox One stock level: 2
+******************************
+ Stock Management Application 
+    App05: by Amir Mohamed
+******************************
+Enter the first word, your choices are; 
+
+    Add a new product
+    Remove an old product
+    Rename the product
+    Sell product
+    Deliver a product
+    Low Stock list
+    Restock product
+    Print all products
+    Quit the program
+> print all
+102: Playstation 2  stock level: 3
+103: Playstation 3  stock level: 3
+104: Playstation 4  stock level: 1
+105: Xbox 360  stock level: 3
+106: Xbox One stock level: 2
+107: Nintendo Switch stock level: 3
+108: Gaming Mouse stock level: 3
+109: Gaming Headset stock level: 3
+110: Gaming Keyboard stock level: 3
+200: PC Gaming  stock level: 3
+
+******************************
+ Stock Management Application 
+    App05: by Amir Mohamed
+******************************
+Enter the first word, your choices are; 
+
+    Add a new product
+    Remove an old product
+    Rename the product
+    Sell product
+    Deliver a product
+    Low Stock list
+    Restock product
+    Print all products
+    Quit the program
+> low stock
+Please enter low stock level
+2
+104: Playstation 4  stock level: 1
+106: Xbox One stock level: 2
+******************************
+ Stock Management Application 
+    App05: by Amir Mohamed
+******************************
+Enter the first word, your choices are; 
+
+    Add a new product
+    Remove an old product
+    Rename the product
+    Sell product
+    Deliver a product
+    Low Stock list
+    Restock product
+    Print all products
+    Quit the program
+> deliver
+Enter ID of product for deliver
+
+******************************
+ Stock Management Application 
+    App05: by Amir Mohamed
+******************************
+Enter the first word, your choices are; 
+
+    Add a new product
+    Remove an old product
+    Rename the product
+    Sell product
+    Deliver a product
+    Low Stock list
+    Restock product
+    Print all products
+    Quit the program
+> rename
+Rename existing product
+
+Please enter the id of the product
+109
+/nProduct 109: Gaming Headset stock level: 3 removed!
+
+******************************
+ Stock Management Application 
+    App05: by Amir Mohamed
+******************************
+Enter the first word, your choices are; 
+
+    Add a new product
+    Remove an old product
+    Rename the product
+    Sell product
+    Deliver a product
+    Low Stock list
+    Restock product
+    Print all products
+    Quit the program
+> quit
